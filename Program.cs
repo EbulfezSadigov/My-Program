@@ -6,6 +6,8 @@ namespace Programs
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(CalculateArea(1));
+            Console.WriteLine(CalculateArea(1,2));
             Console.WriteLine(CalculateArea(1,2,3));
         }
         static int CalculateArea(int r)
